@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+    font-size: 14px;
+}
+h1{
+    color: blue;
+}
+#container{
+    width: 460px;
+    margin: auto;
+    border: 2px solid #cccccc;
+    padding: 20px;
+    text-align: center;
+    background: #ffffff;
+    border-radius:  10px;
+    min-height: 400px;
+
+
+}
+th,td{
+    width: 100px;
+    text-align: center;
+}
+td{
+    border-bottom: 1px dashed #ccc;
+    padding: 3px 0px;
+}
+li{
+    text-align: left;
+    padding:2px 0px;
+}
