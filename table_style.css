@@ -2,21 +2,23 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: blanchedalmond;
     font-size: 14px;
+    background: url(../images/kobe_bryant-1280x720.jpg) center center;
+    background-size: cover;
 }
 h1{
-    color: blue;
+    color: rgb(66, 66, 175);
 }
 #container{
     width: 460px;
-    margin: auto;
-    border: 2px solid #cccccc;
+    margin: 0 auto;
+    border: 1px solid #cccccc;
     padding: 20px;
     text-align: center;
-    background: #ffffff;
+    color: #cccccc;
     border-radius:  10px;
     min-height: 400px;
-
-
+    backdrop-filter: blur(3px);
+   
 }
 th,td{
     width: 100px;
